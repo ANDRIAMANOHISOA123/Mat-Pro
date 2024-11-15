@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderRoots</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue chez WanderRoots</h1>
+        <p>Explorez le monde avec des expériences uniques et sur mesure.</p>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="services">
+        <h2>Nos services</h2>
+        <p>Voyages organisés, safaris, circuits personnalisés et bien plus.</p>
+    </section>
+</body>
+</html>
