@@ -1,0 +1,16 @@
+<section id="reservation">
+    <h2>Réservez votre prochaine aventure</h2>
+    <form action="/submit-reservation" method="POST">
+        <label for="destination">Choisissez votre destination :</label>
+        <select id="destination" name="destination">
+            <option value="kenya">Kenya</option>
+            <option value="madagascar">Madagascar</option>
+            <option value="safari">Safari Afrique du Sud</option>
+        </select>
+        <label for="date">Date de départ :</label>
+        <input type="date" id="date" name="date">
+        <label for="guests">Nombre de participants :</label>
+        <input type="number" id="guests" name="guests" min="1">
+        <button type="submit">Réserver</button>
+    </form>
+</section>
